@@ -9,7 +9,11 @@ RUN apt-get update && apt-get install -y libpq-dev
 
 RUN cd /tmp/g0v-cvg/voter_guide && pip install -r requirements.txt
 
+ADD local_settings.py /tmp/g0v-cvg/voter_guide/local_settings.py
 
+EXPOSE 8000
 
+WORKDIR /tmp/g0v-cvg/voter_guide/
 
+CMD python manage.py runserver 0.0.0.0:8000
 
