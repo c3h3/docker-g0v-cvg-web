@@ -6,7 +6,7 @@
 ### First Step: Download and Extract pgdata 
 
 ```
-git clone https://github.com/c3h3/g0v-cvg-pgdata.git && cd g0v-cvg-pgdata && tar xfzv 11a90d6e0eca89450654e0788f938b586f488484.tar.gz
+git clone https://github.com/c3h3/g0v-cvg-pgdata.git && cd g0v-cvg-pgdata && tar xfzv 47821274c242ce68f2d8d18d4bb0d050d6481311.tar.gz
 ```
 - After that, you will get pgdata dir. 
 - Assume pgdata's absolute path is "your_pgdata"
